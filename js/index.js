@@ -246,26 +246,4 @@ secondBtn.addEventListener("click", ()=>{
   toggleBtn.classList.remove("move");
     navigation.classList.remove("move");
     nav.classList.remove("open")
-})
-
-// sticky navbar 
-
-const sticky = document.querySelector(".sticky")
-
-$(document).on("scroll", function(){
-
-  if ($(document).scrollTop() > 100){
-    $(".sticky").addClass("shrink");
-  } else {
-    $(".sticky").removeClass("shrink");
-  }
-  
 });
-
-// loading animation 
-
-const loading = document.querySelector(".loading")
-
-window.addEventListener("load", ()=>{
-  loading.style.display = 'none'
-})
