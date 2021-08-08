@@ -137,6 +137,12 @@ const items = [
     text:'Manage Landing Page',
     html_link:'https://digitalgenius-ui.github.io/manage-landing-page/'
   },
+  id:4,
+    image:'https://digitalgenius-ui.github.io/my-portfolio/image/manage.jpg',
+    category:'landing',
+    text:'Manage Landing Page',
+    html_link:'https://digitalgenius-ui.github.io/manage-landing-page/'
+  },
 ]
 
 const btns = document.querySelectorAll(".btn");
