@@ -142,7 +142,7 @@ const items = [
     category:'landing',
     text:'Manage Landing Page',
     html_link:'https://digitalgenius-ui.github.io/manage-landing-page/'
-  },
+  }
 ]
 
 const btns = document.querySelectorAll(".btn");
