@@ -242,7 +242,7 @@ svg.radial-progress text {
   margin: -1.3rem auto;
 }
 
-.my-skill .skill h5 {
+.my-skill .skill p {
   color: #fff;
   font-weight: 300;
   text-transform: uppercase;
@@ -272,7 +272,7 @@ svg.radial-progress text {
   padding: 0.2rem 0;
 }
 
-.detile h5 {
+.detile span {
   color: var(--darkwhite);
   font-weight: 300;
   margin-left: 0.5rem;
@@ -335,9 +335,7 @@ svg.radial-progress text {
 }
 
 /* end of detiles part  */
-
 /* start of main content part  */
-
 .container-flex .main-content {
   position: relative;
 }
@@ -1018,7 +1016,7 @@ li.slick-active button {
   }
 
   .project-btns .btn {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }
 
