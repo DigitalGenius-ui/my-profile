@@ -31,7 +31,7 @@ $(window).scroll(function(){
 // skill progress bar 
 
 $('#html').LineProgressbar({
-  percentage: 90,
+  percentage: 100,
   fillBackgroundColor: '#3498db',
   backgroundColor: '#EEEEEE',
   radius: '0px',
@@ -39,7 +39,7 @@ $('#html').LineProgressbar({
   width: '100%'
 });
 $('#css').LineProgressbar({
-  percentage: 70,
+  percentage: 90,
   fillBackgroundColor: '#3498db',
   backgroundColor: '#EEEEEE',
   radius: '0px',
@@ -47,7 +47,7 @@ $('#css').LineProgressbar({
   width: '100%'
 });
 $('#javascript').LineProgressbar({
-  percentage: 50,
+  percentage: 80,
   fillBackgroundColor: '#3498db',
   backgroundColor: '#EEEEEE',
   radius: '0px',
@@ -55,7 +55,7 @@ $('#javascript').LineProgressbar({
   width: '100%'
 });
 $('#bootstrap').LineProgressbar({
-  percentage: 80,
+  percentage: 100,
   fillBackgroundColor: '#3498db',
   backgroundColor: '#EEEEEE',
   radius: '0px',
@@ -107,9 +107,6 @@ $('.review').slick({
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 
@@ -132,13 +129,6 @@ const items = [
   },
   {
     id:3,
-    image:'https://digitalgenius-ui.github.io/my-portfolio/image/manage.jpg',
-    category:'landing',
-    text:'Manage Landing Page',
-    html_link:'https://digitalgenius-ui.github.io/manage-landing-page/'
-  },
-  {
-    id:4,
     image:'https://digitalgenius-ui.github.io/my-portfolio/image/manage.jpg',
     category:'landing',
     text:'Manage Landing Page',
@@ -252,26 +242,4 @@ secondBtn.addEventListener("click", ()=>{
   overFlow.classList.toggle("open")
   navigation.classList.remove("move");
   nav.classList.remove("open")
-})
-
-// sticky navbar 
-
-const sticky = document.querySelector(".sticky")
-
-$(document).on("scroll", function(){
-
-  if ($(document).scrollTop() > 100){
-    $(".sticky").addClass("shrink");
-  } else {
-    $(".sticky").removeClass("shrink");
-  }
-  
-});
-
-// loading animation 
-
-const loading = document.querySelector(".loading")
-
-window.addEventListener("load", ()=>{
-  loading.style.display = 'none'
 })
