@@ -276,10 +276,12 @@ svg.radial-progress text {
   color: var(--darkwhite);
   font-weight: 300;
   margin-left: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .detile i {
   color: var(--info);
+  font-size: 0.8rem;
 }
 
 /* dowload part*/
@@ -1009,6 +1011,88 @@ li.slick-active button {
   font-weight: 300;
 }
 
+/* contact part  */
+
+.contact {
+  width: 100%;
+  background-color: var(--cart);
+  padding: 0.3rem 0 2rem 0;
+}
+
+form {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.contact-title h1 {
+  color: #fff;
+  padding: 2rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+form .form-message,
+.form-item {
+  width: 100%;
+  display: flex;
+  margin: 2rem 0;
+  background-color: var(--layer);
+}
+
+.form-item.success i {
+  background-color: var(--info);
+}
+
+.form-item.error i {
+  background-color: var(--danger);
+}
+
+.form-item textarea,
+.form-item input {
+  padding: 0.4rem 1rem;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  width: 95%;
+}
+
+.form-item i {
+  padding: 1.2rem;
+  background-color: var(--body);
+  color: var(--darkwhite);
+  font-size: 0.6rem;
+}
+
+.form-message i {
+  padding: 1.2rem;
+  background-color: var(--body);
+  display: flex;
+  justify-content: center;
+  color: var(--darkwhite);
+  font-size: 0.6rem;
+}
+
+.form-message.success i {
+  background-color: var(--info);
+  color: #fff;
+}
+
+.form-message.error i {
+  background-color: var(--danger);
+  color: #fff;
+}
+
+form #submit {
+  padding: 0.4rem 2rem;
+  background-color: var(--info);
+  border: none;
+  cursor: pointer;
+}
+
+form #submit:hover {
+  opacity: 0.6;
+}
 @media screen and (max-width: 375px) {
   .banner-text #btn h5 {
     left: 33%;
