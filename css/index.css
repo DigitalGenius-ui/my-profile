@@ -20,6 +20,10 @@
   --danger: #dc3545;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--body);
   scroll-behavior: smooth;
