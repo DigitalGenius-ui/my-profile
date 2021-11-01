@@ -136,7 +136,7 @@ const items = [
   },
   {
     id:4,
-    image:'/image/injury.jpg',
+    image:'./image/injury.jpg',
     category:'react',
     text:'law Landing Page',
     html_link:'https://digitalgenius-ui.github.io/law-client/',
