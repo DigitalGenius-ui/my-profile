@@ -985,6 +985,12 @@ li.slick-active button {
   margin: 0.5rem;
 }
 
+@media(max-width : 437px){
+  .links-flex .link {
+    width: 100%;
+  }
+}
+
 .links-flex .link a {
   position: absolute;
   top: 50%;
