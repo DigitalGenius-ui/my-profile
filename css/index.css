@@ -982,6 +982,7 @@ li.slick-active button {
   position: relative;
   overflow: hidden;
   transition: all 300ms ease-in-out;
+  margin: 0.5rem;
 }
 
 .links-flex .link a {
