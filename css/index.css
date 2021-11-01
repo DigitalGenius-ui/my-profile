@@ -972,9 +972,9 @@ li.slick-active button {
 }
 
 .projects .links-flex {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .links-flex .link {
@@ -990,10 +990,10 @@ li.slick-active button {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background-color: #000;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1.7rem;
   color: #fff;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.7rem;
   border-radius: 50px;
 }
 
