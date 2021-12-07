@@ -140,7 +140,21 @@ const items = [
     category:'react',
     text:'law Landing Page',
     html_link:'https://digitalgenius-ui.github.io/law-client/',
-  }
+  },
+  {
+    id:5,
+    image:'./image/crypto.jpg',
+    category:'react',
+    text:'Crypto Currency Tracker',
+    html_link:'https://milad-crypto-tracker.netlify.app/',
+  },
+  {
+    id:6,
+    image:'./image/tracker.jpg',
+    category:'react',
+    text:'Expeses Tracker',
+    html_link:'https://milad-expenses-traker.netlify.app/',
+  },
 ]
 
 const btns = document.querySelectorAll(".btn");
