@@ -155,6 +155,13 @@ const items = [
     text:'Expeses Tracker',
     html_link:'https://milad-expenses-traker.netlify.app/',
   },
+  {
+    id:7,
+    image:'./image/shopping.jpg',
+    category:'shop',
+    text:'Online shop',
+    html_link:'https://milad-online-shop.netlify.app/',
+  },
 ]
 
 const btns = document.querySelectorAll(".btn");
