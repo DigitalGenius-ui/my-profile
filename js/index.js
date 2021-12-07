@@ -145,7 +145,7 @@ const items = [
     id:5,
     image:'./image/crypto.jpg',
     category:'react',
-    text:'Crypto Currency Tracker',
+    text:'Crypto Tracker',
     html_link:'https://milad-crypto-tracker.netlify.app/',
   },
   {
