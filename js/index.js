@@ -30,38 +30,62 @@ $(window).scroll(function(){
 
 // skill progress bar 
 
-$('#html').LineProgressbar({
-  percentage: 100,
-  fillBackgroundColor: '#3498db',
-  backgroundColor: '#EEEEEE',
-  radius: '0px',
-  height: '5px',
-  width: '100%'
-});
-$('#css').LineProgressbar({
-  percentage: 90,
-  fillBackgroundColor: '#3498db',
-  backgroundColor: '#EEEEEE',
-  radius: '0px',
-  height: '5px',
-  width: '100%'
-});
-$('#javascript').LineProgressbar({
-  percentage: 80,
-  fillBackgroundColor: '#3498db',
-  backgroundColor: '#EEEEEE',
-  radius: '0px',
-  height: '5px',
-  width: '100%'
-});
-$('#bootstrap').LineProgressbar({
-  percentage: 100,
-  fillBackgroundColor: '#3498db',
-  backgroundColor: '#EEEEEE',
-  radius: '0px',
-  height: '5px',
-  width: '100%'
-});
+// $('#html').LineProgressbar({
+//   percentage: 100,
+//   fillBackgroundColor: '#3498db',
+//   backgroundColor: '#EEEEEE',
+//   radius: '0px',
+//   height: '5px',
+//   width: '100%'
+// });
+// $('#css').LineProgressbar({
+//   percentage: 90,
+//   fillBackgroundColor: '#3498db',
+//   backgroundColor: '#EEEEEE',
+//   radius: '0px',
+//   height: '5px',
+//   width: '100%'
+// });
+// $('#javascript').LineProgressbar({
+//   percentage: 80,
+//   fillBackgroundColor: '#3498db',
+//   backgroundColor: '#EEEEEE',
+//   radius: '0px',
+//   height: '5px',
+//   width: '100%'
+// });
+// $('#react').LineProgressbar({
+//   percentage: 70,
+//   fillBackgroundColor: '#3498db',
+//   backgroundColor: '#EEEEEE',
+//   radius: '0px',
+//   height: '5px',
+//   width: '100%'
+// });
+// $('#next').LineProgressbar({
+//   percentage: 70,
+//   fillBackgroundColor: '#3498db',
+//   backgroundColor: '#EEEEEE',
+//   radius: '0px',
+//   height: '5px',
+//   width: '100%'
+// });
+// $('#material').LineProgressbar({
+//   percentage: 90,
+//   fillBackgroundColor: '#3498db',
+//   backgroundColor: '#EEEEEE',
+//   radius: '0px',
+//   height: '5px',
+//   width: '100%'
+// });
+// $('#styled').LineProgressbar({
+//   percentage: 100,
+//   fillBackgroundColor: '#3498db',
+//   backgroundColor: '#EEEEEE',
+//   radius: '0px',
+//   height: '5px',
+//   width: '100%'
+// });
 
 // auto writer plugin
 
@@ -115,57 +139,56 @@ $('.review').slick({
 const items = [
   {
     id:1,
-    image:'https://digitalgenius-ui.github.io/my-portfolio/image/bloger.jpg',
+    image:'https://res.cloudinary.com/ghazni/image/upload/v1645959292/manage_e75lqk.png',
     category:'landing',
-    text:'Bloger Landing Page ',
-    html_link:'https://digitalgenius-ui.github.io/bloger/'
+    disc : "This static landing page is build using HTML5, CSS3, AOS animation and Vanilla Javascript.",
+    text:'Manage Landing Page ',
+    html_link:'https://digitalgenius-ui.github.io/manage-landing-page/',
   },
   {
     id:2,
-    image:'https://digitalgenius-ui.github.io/my-portfolio/image/landing1.jpg',
+    image:'https://res.cloudinary.com/ghazni/image/upload/v1645959295/bloger_lvb89w.png',
     category:'landing',
-    text:'Health Landing Page',
-    html_link:'https://digitalgenius-ui.github.io/health-responsive/'
+    text:'Bloger Landing Page',
+    html_link:'https://digitalgenius-ui.github.io/bloger/',
+    disc : "This static website is build using HTML5, CSS3, JS as well as some jquery plugins and JS libraries.",
   },
   {
     id:3,
-    image:'https://digitalgenius-ui.github.io/my-portfolio/image/manage.jpg',
+    image:'https://res.cloudinary.com/ghazni/image/upload/v1645959296/onta_th5ipe.png',
     category:'landing',
-    text:'Manage Landing Page',
-    html_link:'https://digitalgenius-ui.github.io/manage-landing-page/'
+    text:'law Landing Page',
+    html_link:'https://digitalgenius-ui.github.io/law-client/',
+    disc : "This dynamic landing page is build using REACT JS components, Styled-Components and React-Reaveal animation.",
   },
   {
     id:4,
-    image:'./image/injury.jpg',
+    image:'https://res.cloudinary.com/ghazni/image/upload/v1645959295/shop_jjhdxi.png',
     category:'react',
-    text:'law Landing Page',
-    html_link:'https://digitalgenius-ui.github.io/law-client/',
+    text:'Online Shop',
+    html_link:'https://milad-online-shop.netlify.app/',
+    disc : "This dynamic E-commerce app is build using REACT JS components, Styled-Components, Material-ui and Context Api.",
   },
   {
     id:5,
-    image:'./image/crypto.jpg',
+    image:'https://res.cloudinary.com/ghazni/image/upload/v1645959294/linkedin_ccu16j.png',
     category:'react',
-    text:'Crypto Tracker',
-    html_link:'https://milad-crypto-tracker.netlify.app/',
+    text:'Linkedin Clone',
+    html_link:'https://milad-linkedin-clone.netlify.app/',
+    disc : "This dynamic Linkedin app is build using REACT JS components, Styled-Components, Material-ui, firebase, and Context Api.",
   },
   {
-    id:6,
-    image:'./image/tracker.jpg',
+    id:5,
+    image:'https://res.cloudinary.com/ghazni/image/upload/v1645959294/cororna_mvhwcb.png',
     category:'react',
-    text:'Expeses Tracker',
-    html_link:'https://milad-expenses-traker.netlify.app/',
-  },
-  {
-    id:7,
-    image:'./image/shopping.jpg',
-    category:'shop',
-    text:'Online shop',
-    html_link:'https://milad-online-shop.netlify.app/',
-  },
+    text:'Corona Virus Tracker',
+    html_link:'https://milad-corona-tracker.netlify.app/',
+    disc : "This Corona Virus Tracker is build using REACT JS components, Material-ui, Restful Api",
+  }
 ]
 
 const btns = document.querySelectorAll(".btn");
-const project = document.querySelector(".links-flex");
+const project = document.querySelector(".projects");
 
 window.addEventListener("DOMContentLoaded", ()=>{
   toShow(items)
@@ -190,10 +213,12 @@ btns.forEach((btn)=>{
 function toShow(website){
   const myProjects = website.map((item)=>{
     return(
-      `<div class="link">
-          <img src="${item.image}" alt="Project template">
-          <a href="${item.html_link}">Open</a>
-          <p>${item.text}</p>
+      `<div class="project">
+        <img class="bloger-img" src=${item.image} alt=${item.text}>
+          <div class="texts">
+            <a href=${item.html_link}>${item.text}</a>
+              <p>${item.disc}</p>
+        </div>
       </div>`
     );
   })
